@@ -19,4 +19,19 @@
 .dropdownMenu {
     list-style:none;
     margin:0;
+    position:absolute;
+    left:0;
+    right:0;
+    top:50px;
+    width:150px;
+    
+    box-shadow: 4px 11px 41px -3px rgba(0,0,0,0.71);
+}
+
+.dropdownLink {
+    text-decoration: none;
+    display:block;
+    background-color: #f9f9f9;
+    color:#4a4a4f;
+    padding:10px 5px;
 }
