@@ -19,11 +19,13 @@
 .dropdownMenu {
     list-style:none;
     margin:0;
+    padding:0;
     position:absolute;
     left:0;
     right:0;
     top:50px;
     width:150px;
+    text-align:center;
     
     box-shadow: 4px 11px 41px -3px rgba(0,0,0,0.71);
 }
@@ -34,4 +36,14 @@
     background-color: #f9f9f9;
     color:#4a4a4f;
     padding:10px 5px;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
+
+.dropdownLink:hover {
+    color:#fff;
+    background-color: #a0a0a3; 
+}
+
+
+
+
